@@ -82,3 +82,9 @@ header {
 li:active {
   background-color: red;
 }
+
+.submit {
+  display: block;
+  border: 2px solid red;
+  padding: 10px;
+}

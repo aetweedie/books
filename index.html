@@ -7,10 +7,21 @@
   </head>
   <body>
     <header>Most fav anime books</header>
-    <ol class="list" id="list">
-
-    </ol>
+    <div class="list">
+      <ol class="list-items" id="list"></ol>
+      <form class="submit" action="index.html" method="post" id="newBook" name="newBook">
+        <h3>Add a new book</h3>
+        <input type="text" name="book_id" placeholder="New ID">
+        <input type="text" name="title" placeholder="Title">
+        <input type="text" name="cover" placeholder="Cover">
+        <input type="textarea" name="description" placeholder="Description">
+        <input type="text" name="author" placeholder="Author">
+        <input type="text" name="publish" placeholder="Publish Date">
+        <input type="submit" name="submit" placeholder="Add to list" id="submitter">
+      </form>
+    </div>
     <ol class="details">
+      <h2>Please select a book</h2>
       <img src="" alt="" id="poster">
       <li id="title"></li>
       <li id="author"></li>
