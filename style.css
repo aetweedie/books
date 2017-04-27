@@ -85,6 +85,18 @@ li:active {
 
 .submit {
   display: block;
-  border: 2px solid red;
+  border: 1px solid red;
   padding: 10px;
+	background-color: lightgrey;
+	color: black;
+}
+
+input {
+	background-color: lightgrey;
+	border: none;
+	border-bottom: 1px solid black;
+}
+
+input[type="submit"] {
+	border: 1px solid black;
 }
