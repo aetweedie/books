@@ -100,3 +100,11 @@ input {
 input[type="submit"] {
 	border: 1px solid black;
 }
+
+::-webkit-input-placeholder {
+	font-family: monospace;
+}
+
+::-webkit-input-value {
+	font-family: monospace;
+}
